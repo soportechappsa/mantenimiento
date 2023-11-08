@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include mantenimiento *.css
+recursive-include mantenimiento *.csv
+recursive-include mantenimiento *.html
+recursive-include mantenimiento *.ico
+recursive-include mantenimiento *.js
+recursive-include mantenimiento *.json
+recursive-include mantenimiento *.md
+recursive-include mantenimiento *.png
+recursive-include mantenimiento *.py
+recursive-include mantenimiento *.svg
+recursive-include mantenimiento *.txt
+recursive-exclude mantenimiento *.pyc
