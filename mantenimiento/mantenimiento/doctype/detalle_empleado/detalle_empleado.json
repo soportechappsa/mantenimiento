@@ -1,0 +1,30 @@
+{
+ "actions": [],
+ "creation": "2023-11-10 15:49:20.031171",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "empleado"
+ ],
+ "fields": [
+  {
+   "fieldname": "empleado",
+   "fieldtype": "Link",
+   "label": "Empleado",
+   "options": "Empleado"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-11-13 16:04:03.412069",
+ "modified_by": "Administrator",
+ "module": "Mantenimiento",
+ "name": "Detalle Empleado",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

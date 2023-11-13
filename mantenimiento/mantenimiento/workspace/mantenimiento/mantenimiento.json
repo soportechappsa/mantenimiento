@@ -1,0 +1,119 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"4svzj6kLvA\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Mantenimiento</span>\",\"col\":12}},{\"id\":\"jk0Q2OIuAr\",\"type\":\"card\",\"data\":{\"card_name\":\"\u00c1reas \",\"col\":4}},{\"id\":\"131n8oE8hY\",\"type\":\"card\",\"data\":{\"card_name\":\"Procesos\",\"col\":4}},{\"id\":\"jE030nhH9J\",\"type\":\"card\",\"data\":{\"card_name\":\"Turnos\",\"col\":4}},{\"id\":\"B4F-Nuaqqs\",\"type\":\"card\",\"data\":{\"card_name\":\"Maquinas\",\"col\":4}},{\"id\":\"dj0Ek1V_NW\",\"type\":\"card\",\"data\":{\"card_name\":\"Empleados\",\"col\":4}}]",
+ "creation": "2023-11-08 16:48:43.760838",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "customer",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Mantenimiento",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Procesos",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cat\u00e1logo de procesos",
+   "link_count": 0,
+   "link_to": "Proceso",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Turnos",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cat\u00e1logo de Turnos",
+   "link_count": 0,
+   "link_to": "Turno",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Maquinas",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cat\u00e1logo de maquinas",
+   "link_count": 0,
+   "link_to": "Maquina",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Empleados",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cat\u00e1logo de empleados",
+   "link_count": 0,
+   "link_to": "Empleado",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "\u00c1reas ",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cat\u00e1logo de \u00e1reas",
+   "link_count": 0,
+   "link_to": "Area",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-10 12:26:34.951122",
+ "modified_by": "Administrator",
+ "module": "Mantenimiento",
+ "name": "Mantenimiento",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 23.0,
+ "shortcuts": [],
+ "title": "Mantenimiento"
+}
