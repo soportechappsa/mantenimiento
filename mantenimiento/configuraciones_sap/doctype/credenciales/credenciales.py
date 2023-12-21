@@ -1,6 +1,5 @@
 import frappe
 import requests
-import pyodbc
 from frappe.model.document import Document
 
 class Credenciales(Document):
