@@ -10,7 +10,13 @@
  "field_order": [
   "nombre",
   "area",
-  "nombre_de_area"
+  "nombre_de_area",
+  "horario_dia_section",
+  "horario_inicio",
+  "horario_fin",
+  "horario_noche_section",
+  "horario_laboral_inicio_nocturno",
+  "horario_laboral_fin_nocturno"
  ],
  "fields": [
   {
@@ -32,12 +38,42 @@
    "fieldtype": "Data",
    "label": "Nombre de area",
    "read_only": 1
+  },
+  {
+   "fieldname": "horario_inicio",
+   "fieldtype": "Time",
+   "label": "Horario Laboral Inicio Dia"
+  },
+  {
+   "fieldname": "horario_fin",
+   "fieldtype": "Time",
+   "label": "Horario Laboral Fin Dia"
+  },
+  {
+   "fieldname": "horario_laboral_inicio_nocturno",
+   "fieldtype": "Time",
+   "label": "Horario Laboral Inicio Nocturno"
+  },
+  {
+   "fieldname": "horario_laboral_fin_nocturno",
+   "fieldtype": "Time",
+   "label": "Horario Laboral Fin Nocturno"
+  },
+  {
+   "fieldname": "horario_dia_section",
+   "fieldtype": "Section Break",
+   "label": "Horario Dia"
+  },
+  {
+   "fieldname": "horario_noche_section",
+   "fieldtype": "Section Break",
+   "label": "Horario Noche"
   }
  ],
  "hide_toolbar": 1,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-10 16:06:21.591322",
+ "modified": "2023-12-08 12:27:34.387846",
  "modified_by": "Administrator",
  "module": "Mantenimiento",
  "name": "Empleado",
@@ -55,6 +91,36 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Administrador AMD",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Supervisor AMD",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "read": 1,
+   "report": 1,
+   "role": "Solo Lectura AMD",
+   "select": 1
   }
  ],
  "quick_entry": 1,

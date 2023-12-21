@@ -1,0 +1,115 @@
+{
+ "actions": [],
+ "autoname": "autoincrement",
+ "creation": "2023-11-14 12:26:13.184522",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "service_layer_tab",
+  "usuario",
+  "pass",
+  "base_de_datos",
+  "url",
+  "amended_from",
+  "sql_tab",
+  "server_sql",
+  "database_sql",
+  "username_sql",
+  "password_sql",
+  "driver_sql"
+ ],
+ "fields": [
+  {
+   "fieldname": "usuario",
+   "fieldtype": "Data",
+   "label": "usuario"
+  },
+  {
+   "fieldname": "pass",
+   "fieldtype": "Data",
+   "label": "pass"
+  },
+  {
+   "fieldname": "base_de_datos",
+   "fieldtype": "Data",
+   "label": "base de datos"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Credenciales",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "url",
+   "fieldtype": "Data",
+   "label": "url"
+  },
+  {
+   "fieldname": "sql_tab",
+   "fieldtype": "Tab Break",
+   "label": "SQL"
+  },
+  {
+   "fieldname": "server_sql",
+   "fieldtype": "Data",
+   "label": "server_sql"
+  },
+  {
+   "fieldname": "database_sql",
+   "fieldtype": "Data",
+   "label": "database_sql"
+  },
+  {
+   "fieldname": "username_sql",
+   "fieldtype": "Data",
+   "label": "username_sql"
+  },
+  {
+   "fieldname": "password_sql",
+   "fieldtype": "Data",
+   "label": "password_sql"
+  },
+  {
+   "fieldname": "driver_sql",
+   "fieldtype": "Data",
+   "label": "driver_sql"
+  },
+  {
+   "fieldname": "service_layer_tab",
+   "fieldtype": "Tab Break",
+   "label": "SERVICE LAYER"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-12-01 13:43:47.005898",
+ "modified_by": "Administrator",
+ "module": "Configuraciones SAP",
+ "name": "Credenciales",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

@@ -1,33 +1,55 @@
 {
  "actions": [],
  "autoname": "autoincrement",
- "creation": "2023-11-08 16:43:44.576191",
+ "creation": "2023-11-14 12:26:46.197955",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "id",
-  "nombre"
+  "nombre",
+  "variables",
+  "column_break_ket7l",
+  "query",
+  "section_break_cyyjj",
+  "descripcion"
  ],
  "fields": [
   {
-   "fieldname": "id",
+   "fieldname": "query",
+   "fieldtype": "Long Text",
+   "label": "query"
+  },
+  {
+   "fieldname": "descripcion",
+   "fieldtype": "Long Text",
+   "label": "descripcion"
+  },
+  {
+   "fieldname": "variables",
    "fieldtype": "Data",
-   "label": "Id"
+   "label": "variables"
+  },
+  {
+   "fieldname": "column_break_ket7l",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_cyyjj",
+   "fieldtype": "Section Break"
   },
   {
    "fieldname": "nombre",
    "fieldtype": "Data",
-   "label": "Nombre"
+   "label": "nombre"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-22 13:09:49.078491",
+ "modified": "2023-11-16 16:43:06.519322",
  "modified_by": "Administrator",
- "module": "Mantenimiento",
- "name": "Proceso",
+ "module": "Configuraciones SAP",
+ "name": "Querys",
  "naming_rule": "Autoincrement",
  "owner": "Administrator",
  "permissions": [
@@ -40,18 +62,6 @@
    "read": 1,
    "report": 1,
    "role": "System Manager",
-   "share": 1,
-   "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Administrador AMD",
    "share": 1,
    "write": 1
   }

@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"4svzj6kLvA\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Mantenimiento</span>\",\"col\":12}},{\"id\":\"jk0Q2OIuAr\",\"type\":\"card\",\"data\":{\"card_name\":\"\u00c1reas \",\"col\":4}},{\"id\":\"131n8oE8hY\",\"type\":\"card\",\"data\":{\"card_name\":\"Procesos\",\"col\":4}},{\"id\":\"jE030nhH9J\",\"type\":\"card\",\"data\":{\"card_name\":\"Turnos\",\"col\":4}},{\"id\":\"B4F-Nuaqqs\",\"type\":\"card\",\"data\":{\"card_name\":\"Maquinas\",\"col\":4}},{\"id\":\"dj0Ek1V_NW\",\"type\":\"card\",\"data\":{\"card_name\":\"Empleados\",\"col\":4}}]",
+ "content": "[{\"id\":\"4svzj6kLvA\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Mantenimiento</span>\",\"col\":12}},{\"id\":\"pm-LXftDIW\",\"type\":\"card\",\"data\":{\"card_name\":\"Fallas\",\"col\":4}},{\"id\":\"jk0Q2OIuAr\",\"type\":\"card\",\"data\":{\"card_name\":\"\u00c1reas \",\"col\":4}},{\"id\":\"131n8oE8hY\",\"type\":\"card\",\"data\":{\"card_name\":\"Procesos\",\"col\":4}},{\"id\":\"jE030nhH9J\",\"type\":\"card\",\"data\":{\"card_name\":\"Turnos\",\"col\":4}},{\"id\":\"B4F-Nuaqqs\",\"type\":\"card\",\"data\":{\"card_name\":\"Maquinas\",\"col\":4}},{\"id\":\"dj0Ek1V_NW\",\"type\":\"card\",\"data\":{\"card_name\":\"Empleados\",\"col\":4}}]",
  "creation": "2023-11-08 16:48:43.760838",
  "custom_blocks": [],
  "docstatus": 0,
@@ -101,9 +101,27 @@
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Fallas",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Cat\u00e1logo de fallas",
+   "link_count": 0,
+   "link_to": "Fallas",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
   }
  ],
- "modified": "2023-11-10 12:26:34.951122",
+ "modified": "2023-11-23 10:16:34.182983",
  "modified_by": "Administrator",
  "module": "Mantenimiento",
  "name": "Mantenimiento",
@@ -112,7 +130,11 @@
  "parent_page": "",
  "public": 1,
  "quick_lists": [],
- "roles": [],
+ "roles": [
+  {
+   "role": "Administrador AMD"
+  }
+ ],
  "sequence_id": 23.0,
  "shortcuts": [],
  "title": "Mantenimiento"

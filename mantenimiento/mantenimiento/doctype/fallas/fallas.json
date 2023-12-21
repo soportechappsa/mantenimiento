@@ -1,21 +1,15 @@
 {
  "actions": [],
  "autoname": "autoincrement",
- "creation": "2023-11-08 16:43:44.576191",
+ "creation": "2023-11-30 12:26:46.161776",
  "default_view": "List",
  "doctype": "DocType",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "id",
   "nombre"
  ],
  "fields": [
-  {
-   "fieldname": "id",
-   "fieldtype": "Data",
-   "label": "Id"
-  },
   {
    "fieldname": "nombre",
    "fieldtype": "Data",
@@ -24,10 +18,10 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2023-11-22 13:09:49.078491",
+ "modified": "2023-11-30 12:50:23.403196",
  "modified_by": "Administrator",
  "module": "Mantenimiento",
- "name": "Proceso",
+ "name": "Fallas",
  "naming_rule": "Autoincrement",
  "owner": "Administrator",
  "permissions": [
@@ -42,20 +36,9 @@
    "role": "System Manager",
    "share": 1,
    "write": 1
-  },
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "Administrador AMD",
-   "share": 1,
-   "write": 1
   }
  ],
+ "search_fields": "nombre",
  "sort_field": "modified",
  "sort_order": "DESC",
  "states": []
