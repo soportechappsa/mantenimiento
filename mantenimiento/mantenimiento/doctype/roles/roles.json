@@ -1,0 +1,315 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{rol}",
+ "creation": "2024-01-23 10:04:40.312326",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "rol",
+  "control_pro_tab",
+  "registro_de_actividad",
+  "recuperar_turno",
+  "control_interno_cp_section",
+  "name_registro_de_actividad",
+  "name_recuperar_turno",
+  "etiba_tab",
+  "captura_de_pesos",
+  "tomar_orden",
+  "editar_orden",
+  "cerrar_orden",
+  "abrir_orden",
+  "insertar_registro",
+  "imprimir",
+  "reimprimir",
+  "insertar_peso_manualmente",
+  "suspender_orden",
+  "peso_tara",
+  "exportar",
+  "cp",
+  "name_captura_de_pesos",
+  "mantenimiento_tab",
+  "fallas",
+  "areas",
+  "turnos",
+  "maquinas",
+  "empleados",
+  "usuarios",
+  "roles",
+  "desperdicio",
+  "control_interno_m_section",
+  "name_fallas",
+  "name_areas",
+  "name_turnos",
+  "name_maquinas",
+  "name_empleados",
+  "name_usuarios",
+  "name_roles",
+  "name_desperdicio"
+ ],
+ "fields": [
+  {
+   "fieldname": "control_pro_tab",
+   "fieldtype": "Tab Break",
+   "label": "Control Pro"
+  },
+  {
+   "fieldname": "etiba_tab",
+   "fieldtype": "Tab Break",
+   "label": "eTIBA"
+  },
+  {
+   "fieldname": "rol",
+   "fieldtype": "Select",
+   "label": "Rol",
+   "options": "Administrador AMD\nSolo Lectura AMD\nSupervisor AMD"
+  },
+  {
+   "fieldname": "mantenimiento_tab",
+   "fieldtype": "Tab Break",
+   "label": "Mantenimiento"
+  },
+  {
+   "default": "0",
+   "fieldname": "registro_de_actividad",
+   "fieldtype": "Check",
+   "label": "Registro de actividad"
+  },
+  {
+   "default": "0",
+   "fieldname": "fallas",
+   "fieldtype": "Check",
+   "label": "Fallas"
+  },
+  {
+   "default": "0",
+   "fieldname": "areas",
+   "fieldtype": "Check",
+   "label": "Areas"
+  },
+  {
+   "default": "0",
+   "fieldname": "turnos",
+   "fieldtype": "Check",
+   "label": "Turnos"
+  },
+  {
+   "default": "0",
+   "fieldname": "maquinas",
+   "fieldtype": "Check",
+   "label": "Maquinas"
+  },
+  {
+   "default": "0",
+   "fieldname": "empleados",
+   "fieldtype": "Check",
+   "label": "Empleados"
+  },
+  {
+   "default": "0",
+   "fieldname": "usuarios",
+   "fieldtype": "Check",
+   "label": "Usuarios"
+  },
+  {
+   "default": "0",
+   "fieldname": "recuperar_turno",
+   "fieldtype": "Check",
+   "label": "Recuperar Turno"
+  },
+  {
+   "fieldname": "control_interno_cp_section",
+   "fieldtype": "Section Break",
+   "label": "Control Interno CP"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "control_interno_m_section",
+   "fieldtype": "Section Break",
+   "label": "Control Interno Mantenimiento"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "cp",
+   "fieldtype": "Section Break",
+   "label": "Control interno eTIBA"
+  },
+  {
+   "fieldname": "name_registro_de_actividad",
+   "fieldtype": "Data",
+   "label": "name_registro_de_actividad",
+   "read_only": 1
+  },
+  {
+   "fieldname": "name_recuperar_turno",
+   "fieldtype": "Data",
+   "label": "name_recuperar_turno",
+   "read_only": 1
+  },
+  {
+   "fieldname": "name_fallas",
+   "fieldtype": "Data",
+   "label": "name fallas",
+   "read_only": 1
+  },
+  {
+   "fieldname": "name_areas",
+   "fieldtype": "Data",
+   "label": "name areas",
+   "read_only": 1
+  },
+  {
+   "fieldname": "name_turnos",
+   "fieldtype": "Data",
+   "label": "name turnos",
+   "read_only": 1
+  },
+  {
+   "fieldname": "name_maquinas",
+   "fieldtype": "Data",
+   "label": "name maquinas",
+   "read_only": 1
+  },
+  {
+   "fieldname": "name_empleados",
+   "fieldtype": "Data",
+   "label": "name empleados",
+   "read_only": 1
+  },
+  {
+   "fieldname": "name_usuarios",
+   "fieldtype": "Data",
+   "label": "name usuarios",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "roles",
+   "fieldtype": "Check",
+   "label": "Roles"
+  },
+  {
+   "fieldname": "name_roles",
+   "fieldtype": "Data",
+   "label": "name roles",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "tomar_orden",
+   "fieldtype": "Check",
+   "label": "Tomar Orden"
+  },
+  {
+   "default": "0",
+   "fieldname": "editar_orden",
+   "fieldtype": "Check",
+   "label": "Editar Orden"
+  },
+  {
+   "default": "0",
+   "fieldname": "cerrar_orden",
+   "fieldtype": "Check",
+   "label": "Cerrar Orden"
+  },
+  {
+   "default": "0",
+   "fieldname": "abrir_orden",
+   "fieldtype": "Check",
+   "label": "Abrir Orden"
+  },
+  {
+   "default": "0",
+   "fieldname": "insertar_registro",
+   "fieldtype": "Check",
+   "label": "Insertar Registro"
+  },
+  {
+   "default": "0",
+   "fieldname": "reimprimir",
+   "fieldtype": "Check",
+   "label": "Reimprimir"
+  },
+  {
+   "default": "0",
+   "fieldname": "insertar_peso_manualmente",
+   "fieldtype": "Check",
+   "label": "Insertar Peso Manualmente"
+  },
+  {
+   "default": "0",
+   "fieldname": "suspender_orden",
+   "fieldtype": "Check",
+   "label": "Suspender Orden"
+  },
+  {
+   "default": "0",
+   "fieldname": "peso_tara",
+   "fieldtype": "Check",
+   "label": "Peso Tara"
+  },
+  {
+   "default": "0",
+   "fieldname": "exportar",
+   "fieldtype": "Check",
+   "label": "Exportar"
+  },
+  {
+   "fieldname": "name_captura_de_pesos",
+   "fieldtype": "Data",
+   "label": "name captura de pesos",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "captura_de_pesos",
+   "fieldtype": "Check",
+   "label": "Captura de pesos"
+  },
+  {
+   "default": "0",
+   "fieldname": "desperdicio",
+   "fieldtype": "Check",
+   "label": "Desperdicio"
+  },
+  {
+   "fieldname": "name_desperdicio",
+   "fieldtype": "Data",
+   "label": "name desperdicio",
+   "read_only": 1
+  },
+  {
+   "default": "0",
+   "fieldname": "imprimir",
+   "fieldtype": "Check",
+   "label": "Imprimir"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-01-29 15:56:46.666061",
+ "modified_by": "Administrator",
+ "module": "Mantenimiento",
+ "name": "Roles",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
